@@ -1,41 +1,31 @@
-# Contributing to SQLAlchemy (forked udrus85/sqlalchemy)
+# Contributing to the Project
 
-Спасибо за интерес к этому проекту! Ниже — краткие инструкции и рекомендации, которые помогут сделать ваш вклад полезным и простым в обзоре.
+Thank you for your interest in contributing to this project! We appreciate your efforts to improve our codebase.
 
-1. Обсуждение идеи
-- Для крупных изменений откройте issue, чтобы обсудить дизайн и применимость изменений.
+## Guidelines for Contributors
 
-2. Ветки и коммиты
-- Создавайте отдельную ветку для каждой задачи: `git checkout -b feature/korotkoe-opisanie` или `git checkout -b fix/issue-123`.
-- Делайте осмысленные коммиты с понятными сообщениями.
+### Discussion of Ideas
+- Feel free to discuss any ideas on the project repository or open an issue.
 
-3. Кодстайл и форматирование
-- Используйте `black` для форматирования кода: `pip install black` и `black .`.
-- Используйте `isort` для упорядочивания импортов: `pip install isort` и `isort .`.
-- Перед отправкой PR прогоните линтеры, если они настроены (например, `flake8`).
+### Branching and Commit Practices
+- Please create a new branch for each feature or bug fix.
+- Use clear and descriptive commit messages.
 
-4. Тесты
-- Добавляйте или обновляйте тесты для новых функций и фиксов.
-- Запускайте тесты локально: `pytest` (или команда, указанная в README).
-- Стремитесь к тому, чтобы все существующие тесты проходили.
+### Code Style and Formatting
+- We follow [Black](https://black.readthedocs.io/en/stable/) for code formatting.
+- Use [isort](https://pycqa.github.io/isort/) to organize imports.
 
-5. Документация
-- Обновляйте документацию при изменении публичного API или поведения.
-- Для небольших изменений достаточно описания в PR; для пользовательских изменений — изменяющие docs.
+### Testing
+- Please ensure that your code is properly tested with existing test cases.
+- Add new tests for new features.
 
-6. Pull Request
-- Откройте PR в ветку `add/contributing-and-cli` (или укажите цель ветки по соглашению проекта).
-- В описании PR кратко укажите: что сделано, почему, как протестировать.
-- Ссылку на связанные issue указывайте в теле PR: `Fixes #123`.
+### Documentation
+- Document your code as needed.
+- Update README files or create new ones if you introduce new features.
 
-7. Обратная связь и ревью
-- Будьте готовы внести правки по результатам кода-ревью.
-- Отвечайте на комментарии конструктивно и оперативно.
+### Pull Request Guidance
+- Once your code is ready, open a pull request against the main branch.
+- Provide a summary of the changes in your PR description.
 
-8. Маленькие правки
-- Для опечаток, документации и мелких исправлений можно открывать PR напрямую без предварительного issue.
-
-9. Контакты
-- Для вопросов или руководства оставьте комментарий в issue или PR.
-
-Спасибо за вклад!
+### Review Process
+- Your PR will be reviewed by the maintainers. Be open to feedback and suggestions!
